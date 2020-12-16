@@ -1,0 +1,266 @@
+
+body {
+background-image: url(imgs/rachel.jpg);
+background-size: cover;
+}
+.cucumber {
+  position: absolute;
+  left: -50px;
+  top: -20px;
+  z-index: 10;
+}
+
+
+
+.shape {
+	   width: 200px;
+     height: 200px;
+      border-radius: 50%;
+  background-color: rgba(140, 175, 194, 1);
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
+  position: relative;
+  left: 350px;
+  top: 300px;
+  font-family: lato;
+  font-size: 10px;
+
+
+}
+
+.date {
+	font-family: sans-serif;
+	font-size: 13px;
+	position: relative;
+    top: 81px;
+    left: 59px;
+    z-index: 10;
+    color: white;
+
+}
+
+
+.shape:hover {
+border-radius: 30px;
+width: 200px;
+height: 200px;
+  position: relative;
+  background-color: white;
+  -webkit-transition: all 1.4s ease-in-out;
+
+}
+
+.shape:hover .title span {
+  display: none;
+
+}
+
+
+.shape:hover .title:after {
+	position: relative;
+	top: 80px;
+	left: 35px;
+font-family: sans-serif;
+font-size: 15px;
+color: rgba(140, 175, 194, 1);
+  content: "SUN 13 JUNE 2021";
+
+}
+
+
+.shape:hover .title2:after {
+	position: relative;
+	top: 80px;
+	left: 65px;
+font-family: sans-serif;
+font-size: 10px;
+color: rgba(140, 175, 194, 1);
+  content: "7:00-11:30 AM";
+
+}
+
+
+.shape2 {
+     width: 200px;
+     height: 200px;
+      border-radius: 50%;
+  background-color: white;
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
+  position: relative;
+  left: 900px;
+  top: 86px;
+  font-family: lato;
+  font-size: 10px;
+}
+
+
+.location {
+	font-family: sans-serif;
+	font-size: 13px;
+	position: relative;
+    top: 80px;
+    left: 65px;
+    z-index: 10;
+    color: rgba(140, 175, 194, 1);
+}
+
+
+.shape2:hover {
+border-radius: 30px;
+width: 200px;
+height: 200px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgba(140, 175, 194, 1);
+  -webkit-transition: all 1.4s ease-in-out;
+
+}
+
+.shape2:hover .title2 span {
+  display: none;
+}
+
+
+.shape2:hover .title2:after {
+	position: relative;
+	top: 70px;
+	left: 8px;
+font-family: sans-serif;
+font-size: 9px;
+color: white;
+content: " San Bastiaun 3, 7503 Samedan, Switzerland";
+}
+
+.titlepage {
+
+	font-size: 30px;
+	font-family: Times, sans-serif;
+	letter-spacing: 5px;
+	text-align: center;
+position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translateX(-50%) translateY(0%);
+color: white;
+
+}
+
+@media (max-width: 600px) {
+  .shape {
+width: 100px;
+height: 100px; 
+   border-radius: 50%;
+  background-color: rgba(140, 175, 194, 1);
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
+  position: relative;
+  left: 200px;
+  top: 300px;
+  font-family: lato;
+  font-size: 10px;
+  }
+  
+@media (max-width: 600px) {
+  .date {
+	font-family: sans-serif;
+	font-size: 10px;
+	position: relative;
+ top: 31px;
+    left: 18px;
+    z-index: 10;
+    color: white;
+}
+
+@media (max-width: 600px) {
+.shape:hover {
+border-radius: 30px;
+width: 100px;
+height: 100px;
+  position: relative;
+  background-color: white;
+  -webkit-transition: all 1.4s ease-in-out;
+}
+
+.shape:hover .title span {
+  display: none;
+}
+
+
+.shape:hover .title:after {
+	position: relative;
+	top: 31px;
+	left: 10px;
+font-family: sans-serif;
+font-size: 9px;
+color: rgba(140, 175, 194, 1);
+  content: "SUN 13 JUNE 2021";
+}
+
+
+.shape:hover .title2:after {
+	position: relative;
+	top: 25px;
+	left: 23px;
+font-family: sans-serif;
+font-size: 8px;
+color: rgba(140, 175, 194, 1);
+  content: "7:00-11:30 AM";
+}
+
+@media (max-width: 600px) {
+	.shape2 {
+     width: 100px;
+     height: 100px;
+      border-radius: 50%;
+  background-color: white;
+  -webkit-transform: scale(2.25);
+  cursor: pointer;
+  position: relative;
+  left: 200px;
+  top: 500px;
+  font-family: lato;
+  font-size: 10px;
+}
+
+
+.location {
+	font-family: sans-serif;
+	font-size: 10px;
+	position: relative;
+    top: 35px;
+    left: 23px;
+    z-index: 10;
+    color: rgba(140, 175, 194, 1);
+}
+
+
+.shape2:hover {
+border-radius: 30px;
+width: 100px;
+height: 100px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  background-color: rgba(140, 175, 194, 1);
+  -webkit-transition: all 1.4s ease-in-out;
+}
+
+.shape2:hover .title2 span {
+  display: none;
+}
+
+
+.shape2:hover .title2:after {
+	position: relative;
+	top: 10px;
+	left: 10px;
+font-family: sans-serif;
+font-size: 8px;
+color: white;
+content: " San Bastiaun 3, 7503 Samedan, Switzerland";
+}
+
+}
+ 

@@ -1,0 +1,47 @@
+body {
+background-image: url(imgs/nature.jpeg);
+background-size: cover;
+
+}
+
+.item {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+margin: 0px;
+padding: 0px;
+text-align: center;
+font-size: 45px;
+font-family: times, sans-serif; 
+color: white;
+letter-spacing: 5px;
+}
+
+
+
+.description {
+  position: absolute;
+  top: 200px;
+  font-size: 30px;
+  padding: 120px;
+  font-family: lato;
+  color: white;
+
+}
+.cucumber {
+  position: absolute;
+  left: -50px;
+  top: -20px;
+  z-index: 10;
+}
+
+@media (max-width: 600px) {
+  .description {
+font-size: 17px;    
+  }
+  
+  @media (max-width: 600px) {
+  .item {
+font-size: 30px;    
+  }
